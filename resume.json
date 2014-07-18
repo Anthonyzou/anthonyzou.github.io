@@ -1,48 +1,46 @@
 {
   "bio": {
     "firstName": "Anthony",
-    "lastName": "Hendriks",
+    "lastName": "Ou",
     "email": {
-      "work": "richard@piedpiper.com",
       "personal": "ou.anthony@gmail.com"
     },
     "phone": {
-      "work": "(912) 555-1234",
-      "personal": "(912) 555-4321"
+      "work": "",
+      "personal": "1 (780) 667-4266"
     },
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Began working on a Biology degree, but switched into computing science. Began a general interest for computing science, but my goal is to learn and use frameworks or technologies while coming up with a creative or interesting way to use old technologies.",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US",
-      "state": "California"
+      "city": "Edmonton",
+      "countryCode": "CA",
+      "state": "Alberta"
     },
     "websites": {
-      "blog": "http://richardhendricks.com"
+      "blog": "http://contextswitch.ca"
     },
     "profiles": {
-      "github": "richardhendricks",
-      "twitter": "richardhendricks"
+      "github": "Anthonyzou"
     }
   },
   "work": [
     {
-      "company": "Facebook",
-      "position": "Software Engineer",
+      "company": "Alberta School of Business",
+      "position": "Internet data research assistant",
       "website": "http://facebook.com",
-      "startDate": "2014-06-29",
-      "endDate": "2012-06-29",
-      "summary": "Give an overview of your responsibilities at the company",
+      "startDate": "2014-04-30",
+      "endDate": "current",
+      "summary": "Getting data out of social medial REST APIs",
       "highlights": [
-        "Increased profits by 20% from 2011-2012 through viral advertising"
+        "Twitter"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "area": "Information Technology",
+      "institution": "University of Alberta",
+      "startDate": "2009-08-01",
+      "endDate": "2015-01-01",
+      "area": "Computing Science",
       "studyType": "Bachelor",
       "courses": [
         "DB1101 - Basic SQL",
@@ -50,45 +48,38 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    }
-  ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Intermediate",
       "keywords": [
         "HTML",
-        "CSS",
         "Javascript"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Languages",
+      "level": "Mixed",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Java",
+        "Javascript",
+        "Android",
+        "Python",
+        "C/C++",
+        "Scala"
       ]
     }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    ,{
+      "name": "Technologies",
+      "level": "Mixed",
+      "keywords": [
+        "Git",
+        "Gradle",
+        "Intellij",
+        "Nginx",
+        "Cassandra"
+
+      ]
     }
   ]
 }
