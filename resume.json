@@ -9,7 +9,7 @@
       "work": "",
       "personal": "1 (780) 667-4266"
     },
-    "summary": "Began working on a Biology degree, but switched into computing science. Began a general interest for computing science, but my goal is to learn and use frameworks or technologies while coming up with a creative or interesting way to use old technologies.",
+    "summary": "Began working on a Biology degree, but switched into computing science. Gained a general interest for computing science, but my goal is to learn and use frameworks or technologies while coming up with a creative or interesting way to use old technologies.",
     "location": {
       "city": "Edmonton",
       "countryCode": "CA",
@@ -39,7 +39,7 @@
     {
       "institution": "University of Alberta",
       "startDate": "2009-08-01",
-      "endDate": "2015-01-01",
+      "endDate": "2015-04-01",
       "area": "Computing Science",
       "studyType": "Bachelor",
       "courses": [
@@ -54,7 +54,8 @@
       "level": "Intermediate",
       "keywords": [
         "HTML",
-        "Javascript"
+        "Javascript",
+        "JavaEE"
       ]
     },
     {
@@ -62,12 +63,12 @@
       "level": "Mixed",
       "keywords": [
         "Java",
-        "Javascript",
         "Android",
         "Python",
         "C/C++",
         "Scala",
-        "node"
+        "SQL",
+        "Node.js"
       ]
     }
     ,{
@@ -78,8 +79,9 @@
         "Gradle",
         "Intellij",
         "Nginx",
-        "Cassandra"
-
+        "Cassandra",
+        "MongoDB",
+        "Redis"
       ]
     }
   ]
