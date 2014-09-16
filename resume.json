@@ -1,37 +1,47 @@
 {
-  "bio": {
-    "firstName": "Anthony",
-    "lastName": "Ou",
-    "email": {
-      "personal": "ou.anthony@gmail.com"
-    },
-    "phone": {
-      "work": "",
-      "personal": "1 (780) 667-4266"
-    },
+	"basics": {
+    "name": "Anthony Ou",
+    "label": "",
+    "picture": "",
+    "email": "ou.anthony+resume@gmail.com",
+    "phone": "",
+    "website": "anthonyou.com",
     "summary": "Began working on a Biology degree, but switched into computing science. Gained a general interest for computing science, but my goal is to learn and use frameworks or technologies while coming up with a creative or interesting way to use old technologies.",
     "location": {
+      "address": "",
+      "postalCode": "",
       "city": "Edmonton",
       "countryCode": "CA",
-      "state": "Alberta"
+      "region": "Alberta"
     },
-    "websites": {
-      "blog": "http://contextswitch.ca"
-    },
-    "profiles": {
-      "github": "Anthonyzou"
-    }
+    "profiles": [{
+      "network": "github",
+      "username": "anthonyzou",
+      "url": "https://github.com/Anthonyzou"
+    }]
   },
   "work": [
-    {
-      "company": "Alberta School of Business",
-      "position": "Internet data research assistant",
-      "website": "http://facebook.com",
-      "startDate": "2014-04-30",
-      "endDate": "current",
-      "summary": "Getting data out of social medial REST APIs",
+  {
+      "company": "Cassandra cluster performance testing",
+      "position": "Project leader",
+      "website": "https://github.com/Anthonyzou/CMPUT391",
+      "startDate": "2014-02-30",
+      "endDate": "2014-04-30",
+      "summary": "Design a NOSQL Cassandra cluster and to measure performance, in a 3 person group setting",
       "highlights": [
-        "Twitter"
+        "400GB inserted per node over 8 nodes in 20 hours",
+        "Configured a Cassandra cluster, optimized for bulk insertions"
+      ]
+    },
+    {
+      "company": "JavaEE webapp, Prereading",
+      "position": "Project leader",
+      "startDate": "2014-02-30",
+      "endDate": "2014-04-30",
+      "summary": "Managed a 7 member team through webapp design, development, and documentation of an app designed to mass test for reading disablities in children",
+      "highlights": [
+        "Completed requirements, on time, as outlined by the client",
+        "Live demos by school children to gain UX feedback"
       ]
     }
   ],
@@ -41,10 +51,9 @@
       "startDate": "2009-08-01",
       "endDate": "2015-04-01",
       "area": "Computing Science",
-      "studyType": "Bachelor",
+      "studyType": "Undergraduate",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "CS 114 - Java Introduction"
       ]
     }
   ],
@@ -67,6 +76,7 @@
         "Python",
         "C/C++",
         "Scala",
+        "NOSQL",
         "SQL",
         "Node.js"
       ]
