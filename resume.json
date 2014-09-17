@@ -53,7 +53,20 @@
       "area": "Computing Science",
       "studyType": "Undergraduate",
       "courses": [
-        "CS 114 - Java Introduction"
+        "CMPUT 114 - Java I",
+        "CMPUT 115 - Java II",
+        "CMPUT 201 - Practical Programming Methodology",
+        "CMPUT 204 - Algorithms I",
+        "CMPUT 229 - Computer Organization and Architecture I",
+        "CMPUT 272 - Formal Systems and Logic in Computing Science",
+        "CMPUT 291 - Introduction to File and Database Management",
+        "CMPUT 301 - Introduction to Software Engineering",
+        "CMPUT 325 - Non-Procedural Programming Languages",
+        "CMPUT 350 - Advanced Games Programming",
+        "CMPUT 379 - Operating System Concepts",
+        "CMPUT 391 - Database Management Systems",
+        "CMPUT 401 - Software Process and Product Management",
+
       ]
     }
   ],
