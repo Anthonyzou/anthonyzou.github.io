@@ -1,11 +1,11 @@
 {
-	"basics": {
+    "basics": {
     "name": "Anthony Ou",
     "label": "",
     "picture": "",
     "email": "ou.anthony+resume@gmail.com",
     "phone": "",
-    "website": "anthonyou.com",
+    "website": "http://anthonyou.com",
     "summary": "Began working on a biology degree, but switched into computing science which I gained a interest for. Currently in 4th year and playing with libraries, languages, programs, and technologies which I haven't heard of since it feels like I have reached the limit of what university can offer.",
     "location": {
       "address": "",
@@ -18,7 +18,17 @@
       "network": "github",
       "username": "anthonyzou",
       "url": "https://github.com/Anthonyzou"
-    }]
+    }, {
+      "network": "The open source report card",
+      "username": "anthonyzou",
+      "url": "https://osrc.dfm.io/anthonyzou/"
+    },
+    {
+      "network": "Bitbucket",
+      "username": "anthonyzou",
+      "url": "https://bitbucket.org/anthonyzou"
+    }
+    ]
   },
   "work": [
   {
@@ -65,7 +75,7 @@
         "CMPUT 350 - Advanced Games Programming",
         "CMPUT 379 - Operating System Concepts",
         "CMPUT 391 - Database Management Systems",
-        "CMPUT 401 - Software Process and Product Management",
+        "CMPUT 401 - Software Process and Product Management"
 
       ]
     }
@@ -104,8 +114,15 @@
         "Nginx",
         "Cassandra",
         "MongoDB",
-        "Redis"
+        "Redis",
+        "Amazon web services"
       ]
     }
-  ]
+  ],
+  "interests": [{
+    "name": "3D printing",
+    "keywords": [
+      "3D printing", "Freecad"
+    ]
+  }]
 }
