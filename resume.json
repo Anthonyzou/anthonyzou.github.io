@@ -6,7 +6,7 @@
     "email": "ou.anthony+resume@gmail.com",
     "phone": "",
     "website": "http://anthonyou.com",
-    "summary": "Began working on a biology degree, but switched into computing science which I gained a interest for. Currently in 4th year and playing with libraries, languages, programs, and technologies which I haven't heard of since it feels like I have reached the limit of what university can offer.",
+    "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies which I haven't heard of.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -85,9 +85,10 @@
       "name": "Web Development",
       "level": "Intermediate",
       "keywords": [
-        "HTML",
         "Javascript",
-        "JavaEE"
+        "JavaEE",
+        "Jade",
+        "Wintersmith"
       ]
     },
     {
