@@ -3,10 +3,10 @@
     "name": "Anthony Ou",
     "label": "",
     "picture": "",
-    "email": "ou.anthony+resume@gmail.com",
+    "email": "ou.anthony@gmail.com",
     "phone": "",
     "website": "http://anthonyou.com",
-    "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies which I haven't heard of.",
+    "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies I haven't heard of.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,6 +27,9 @@
       "network": "Bitbucket",
       "username": "anthonyzou",
       "url": "https://bitbucket.org/anthonyzou"
+    },{
+      "network": "resume",
+      "url": "http://anthonyzou.github.io"
     }
     ]
   },
@@ -51,7 +54,7 @@
       "summary": "Managed a 7 member team through webapp design, development, and documentation of an app designed to mass test for reading disablities in children",
       "highlights": [
         "Completed requirements, on time, as outlined by the client",
-        "Live demos by school children to gain UX feedback"
+        "Live demos with school children to gain UX feedback"
       ]
     }
   ],
@@ -88,7 +91,8 @@
         "Javascript",
         "JavaEE",
         "Jade",
-        "Wintersmith"
+        "Wintersmith",
+        "DNS"
       ]
     },
     {
@@ -113,6 +117,7 @@
         "Gradle",
         "Intellij",
         "Nginx",
+        "Debian and Arch linux",
         "Cassandra",
         "MongoDB",
         "Redis",
@@ -120,10 +125,13 @@
       ]
     }
   ],
-  "interests": [{
-    "name": "3D printing",
-    "keywords": [
-      "3D printing", "Freecad"
-    ]
+  "interests": [
+  {
+    "name": "3D printing" 
+  },
+  {
+    "name":"Freecad"
+  },{
+    "name":"Mechanical keyboards"
   }]
 }
