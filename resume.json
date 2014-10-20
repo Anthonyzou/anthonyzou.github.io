@@ -1,24 +1,24 @@
 {
     "basics": {
-    "name": "Anthony Ou",
-    "label": "",
-    "picture": "",
-    "email": "ou.anthony@gmail.com",
-    "phone": "",
-    "website": "http://anthonyou.com",
-    "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies I haven't heard of.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Edmonton",
-      "countryCode": "CA",
-      "region": "Alberta"
+      "name": "Anthony Ou",
+      "label": "Programmer",
+      "email": "ou.anthony@gmail.com",
+      "phone": "7806674266",
+      "website": "http://anthonyou.com",
+      "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies I haven't heard of.",
+      "location": {
+        "address": "2424-37St. NW",
+        "postalCode": "T6L 6E3",
+        "city": "Edmonton",
+        "countryCode": "CA",
+        "region": "Alberta"
     },
     "profiles": [{
       "network": "github",
       "username": "anthonyzou",
       "url": "https://github.com/Anthonyzou"
-    }, {
+    }, 
+    {
       "network": "The open source report card",
       "username": "anthonyzou",
       "url": "https://osrc.dfm.io/anthonyzou/"
@@ -125,6 +125,25 @@
       ]
     }
   ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Proficient"
+  }],
+  "volunteer": [{
+    "organization": "Specialized Support and Disability Services at the University of Alberta",
+    "position": "Note taker",
+    "website": "http://www.ssds.ualberta.ca/",
+    "startDate": "2011-11-01",
+    "endDate": "2011-12-15",
+    "summary": ""
+  },{
+    "organization": "ComputAbilities Program Volunteer at the Cerebral Palsy Association in Alberta",
+    "position": "Volunteer",
+    "website": "http://www.cpalberta.com/",
+    "startDate": "2013-06-01",
+    "endDate": "2013-09-01",
+    "summary": "Helping disabled persons with general computer usage"
+  }],
   "interests": [
   {
     "name": "3D printing" 
