@@ -1,3 +1,3 @@
 anthonyzou.github.io
 ====================
-Uses http://jsonresume.org/ json resume standard
+Uses [json resume](http://jsonresume.org/) standard

@@ -1,0 +1,19 @@
+{
+  "name": "anthonyzou.github.io",
+  "version": "0.0.1",
+  "description": "Resume",
+  "main": "index.js",
+  "scripts": {
+    "export": "resume export index --theme class"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anthonyzou/anthonyzou.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthonyzou/anthonyzou.github.io/issues"
+  },
+  "homepage": "https://github.com/Anthonyzou/anthonyzou.github.io"
+}

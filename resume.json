@@ -91,8 +91,7 @@
         "Javascript",
         "JavaEE",
         "Jade",
-        "Wintersmith",
-        "DNS"
+        "Wintersmith"
       ]
     },
     {
@@ -137,8 +136,8 @@
     "endDate": "2011-12-15",
     "summary": ""
   },{
-    "organization": "ComputAbilities Program Volunteer at the Cerebral Palsy Association in Alberta",
-    "position": "Volunteer",
+    "organization": "Cerebral Palsy Association in Alberta",
+    "position": "ComputAbilities Program Volunteer",
     "website": "http://www.cpalberta.com/",
     "startDate": "2013-06-01",
     "endDate": "2013-09-01",
