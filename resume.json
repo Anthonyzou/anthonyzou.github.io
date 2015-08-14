@@ -1,40 +1,54 @@
 {
-    "basics": {
-      "name": "Anthony Ou",
-      "label": "Programmer",
-      "email": "ou.anthony@gmail.com",
-      "phone": "7806674266",
-      "website": "http://anthonyou.com",
-      "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies I haven't heard of.",
-      "location": {
-        "address": "2424-37St. NW",
-        "postalCode": "T6L 6E3",
-        "city": "Edmonton",
-        "countryCode": "CA",
-        "region": "Alberta"
+  "basics": {
+    "name": "Anthony Ou",
+    "label": "Programmer",
+    "email": "ou.anthony@gmail.com",
+    "phone": "7806674266",
+    "website": "http://anthonyou.com",
+    "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies I haven't heard of.",
+    "location": {
+      "address": "2424-37St. NW",
+      "postalCode": "T6L 6E3",
+      "city": "Edmonton",
+      "countryCode": "CA",
+      "region": "Alberta"
     },
-    "profiles": [{
-      "network": "Github",
-      "username": "anthonyzou",
-      "url": "https://github.com/Anthonyzou"
-    }, 
-    {
-      "network": "The Open Source Report Card",
-      "username": "anthonyzou",
-      "url": "https://osrc.dfm.io/anthonyzou/"
-    },
-    {
-      "network": "Bitbucket",
-      "username": "anthonyzou",
-      "url": "https://bitbucket.org/anthonyzou"
-    },{
-      "network": "Resume",
-      "url": "http://anthonyzou.github.io"
-    }
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "anthonyzou",
+        "url": "https://github.com/Anthonyzou"
+      },
+      {
+        "network": "The Open Source Report Card",
+        "username": "anthonyzou",
+        "url": "https://osrc.dfm.io/anthonyzou/"
+      },
+      {
+        "network": "Bitbucket",
+        "username": "anthonyzou",
+        "url": "https://bitbucket.org/anthonyzou"
+      },
+      {
+        "network": "Resume",
+        "url": "http://anthonyzou.github.io"
+      }
     ]
   },
   "work": [
-  {
+    {
+      "company": "Onlea",
+      "position": "Web Developer Intern",
+      "website": "http://onlea.org",
+      "startDate": "2015-01-5",
+      "endDate": "2016-04-30",
+      "summary": "",
+      "highlights": [
+        "Implemented a redesign of the comapny website",
+        "Created resusable interactive learning objects"
+      ]
+    },
+    {
       "company": "Cassandra cluster performance testing",
       "position": "Project leader",
       "website": "https://github.com/Anthonyzou/CMPUT391",
@@ -63,7 +77,7 @@
       "institution": "University of Alberta",
       "startDate": "2009-08-01",
       "endDate": "2015-04-10",
-      "area": "Computing Science",
+      "area": "BSc General Computing Science-Maj - Science Internship Program, Mathematical Sciences-Min",
       "studyType": "Bachelor of Science",
       "courses": [
         "CMPUT 114 - Java I",
@@ -79,77 +93,82 @@
         "CMPUT 379 - Operating System Concepts",
         "CMPUT 391 - Database Management Systems",
         "CMPUT 401 - Software Process and Product Management"
-
       ]
     }
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Intermediate",
+      "level": "",
       "keywords": [
-        "Javascript",
-        "JavaEE",
+        "CSS and Preprocessors",
         "Jade",
-        "Wintersmith"
+        "JavaEE",
+        "Javascript"
       ]
     },
     {
       "name": "Languages",
-      "level": "Mixed",
+      "level": "",
       "keywords": [
-        "Java",
         "Android",
+        "Java",
         "Python",
-        "C/C++",
         "Scala",
-        "NOSQL",
-        "SQL",
-        "Node.js"
+        "Javascript"
       ]
-    }
-    ,{
+    },
+    {
       "name": "Technologies",
-      "level": "Mixed",
+      "level": "",
       "keywords": [
-        "Git",
-        "Gradle",
-        "Intellij",
-        "Nginx",
-        "Debian and Arch linux",
+        "Amazon web services",
         "Cassandra",
+        "Debian and Arch linux",
+        "Docker",
+        "Git",
         "MongoDB",
+        "NOSQL",
+        "Nginx",
+        "Nodejs",
         "Redis",
-        "Amazon web services"
+        "SQL"
       ]
     }
   ],
-  "languages": [{
-    "language": "English",
-    "fluency": "Proficient"
-  }],
-  "volunteer": [{
-    "organization": "Specialized Support and Disability Services at the University of Alberta",
-    "position": "Note taker",
-    "website": "http://www.ssds.ualberta.ca/",
-    "startDate": "2011-11-01",
-    "endDate": "2011-12-15",
-    "summary": "In class note taker for a fellow CMPUT 115 student."
-  },{
-    "organization": "Cerebral Palsy Association in Alberta",
-    "position": "ComputAbilities Program Volunteer",
-    "website": "http://www.cpalberta.com/",
-    "startDate": "2013-06-01",
-    "endDate": "2013-09-01",
-    "summary": "Helping disabled persons with general computer usage"
-  }],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Specialized Support and Disability Services at the University of Alberta",
+      "position": "Note taker",
+      "website": "http://www.ssds.ualberta.ca/",
+      "startDate": "2011-11-01",
+      "endDate": "2011-12-15",
+      "summary": "In class note taker for a fellow CMPUT 115 student."
+    },
+    {
+      "organization": "Cerebral Palsy Association in Alberta",
+      "position": "ComputAbilities Program Volunteer",
+      "website": "http://www.cpalberta.com/",
+      "startDate": "2013-06-01",
+      "endDate": "2013-09-01",
+      "summary": "Helping disabled persons with general computer usage"
+    }
+  ],
   "interests": [
-  {
-    "name": "3D printing" 
-  },
-  {
-    "name":"Freecad"
-  },{
-    "name":"Mechanical keyboards"
-  }]
+    {
+      "name": "3D printing"
+    },
+    {
+      "name": "Freecad"
+    },
+    {
+      "name": "Mechanical keyboards"
+    }
+  ]
 }

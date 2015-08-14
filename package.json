@@ -4,7 +4,9 @@
   "description": "Resume",
   "main": "index.js",
   "scripts": {
-    "export": "resume export index --theme class"
+    "export": "resume export index",
+    "tojson" : "cson2json resume.cson > resume.json",
+    "tocson" : "json2cson resume.json > resume.cson"
   },
   "repository": {
     "type": "git",
