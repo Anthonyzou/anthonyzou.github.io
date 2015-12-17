@@ -7,8 +7,6 @@
     "website": "http://anthonyou.com",
     "summary": "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies I haven't heard of.",
     "location": {
-      "address": "2424-37St. NW",
-      "postalCode": "T6L 6E3",
       "city": "Edmonton",
       "countryCode": "CA",
       "region": "Alberta"
@@ -20,18 +18,14 @@
         "url": "https://github.com/Anthonyzou"
       },
       {
-        "network": "The Open Source Report Card",
-        "username": "anthonyzou",
-        "url": "https://osrc.dfm.io/anthonyzou/"
+        "network": "stackOverflow",
+        "username": "denixtry",
+        "url": "http://stackoverflow.com/users/3399430/denixtry"
       },
       {
-        "network": "Bitbucket",
-        "username": "anthonyzou",
-        "url": "https://bitbucket.org/anthonyzou"
-      },
-      {
-        "network": "Resume",
-        "url": "http://anthonyzou.github.io"
+        "network": "linkedin",
+        "username": "",
+        "url": "https://ca.linkedin.com/in/anthony-ou-65b61271"
       }
     ]
   },
@@ -40,20 +34,21 @@
       "company": "Onlea",
       "position": "Web Developer Intern",
       "website": "http://onlea.org",
-      "startDate": "2015-01-5",
-      "endDate": "2016-04-30",
+      "startDate": "2015-01-05",
+      "endDate": "2016-04-25",
       "summary": "",
       "highlights": [
-        "Implemented a redesign of the comapny website",
-        "Created resusable interactive learning objects"
+        "Implemented a redesign of the company website",
+        "Created resusable interactive learning objects in AngularJS",
+        "Leveraged AWS for video transcoding with S3 integration."
       ]
     },
     {
       "company": "Cassandra cluster performance testing",
       "position": "Project leader",
       "website": "https://github.com/Anthonyzou/CMPUT391",
-      "startDate": "2014-02-30",
-      "endDate": "2014-04-30",
+      "startDate": "2014-02-25",
+      "endDate": "2014-04-25",
       "summary": "Design a NOSQL Cassandra cluster and to measure performance, in a 3 person group setting",
       "highlights": [
         "400GB inserted per node over 8 nodes in 20 hours",
@@ -63,13 +58,22 @@
     {
       "company": "JavaEE webapp, Prereading",
       "position": "Project leader",
-      "startDate": "2014-02-30",
-      "endDate": "2014-04-30",
+      "startDate": "2014-02-25",
+      "endDate": "2014-04-25",
       "summary": "Managed a 7 member team through webapp design, development, and documentation of an app designed to mass test for reading disablities in children",
       "highlights": [
         "Completed requirements, on time, as outlined by the client",
         "Live demos with school children to gain UX feedback"
       ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Ln Launcher",
+      "publisher": "Anthony Ou",
+      "releaseDate": "2015-05-24",
+      "website": "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln",
+      "summary": "An Android launcher developed in Scala."
     }
   ],
   "education": [
@@ -80,8 +84,7 @@
       "area": "BSc General Computing Science-Maj - Science Internship Program, Mathematical Sciences-Min",
       "studyType": "Bachelor of Science",
       "courses": [
-        "CMPUT 114 - Java I",
-        "CMPUT 115 - Java II",
+        "CMPUT 114/115 - Java I/II",
         "CMPUT 201 - Practical Programming Methodology",
         "CMPUT 204 - Algorithms I",
         "CMPUT 229 - Computer Organization and Architecture I",
@@ -103,8 +106,7 @@
       "keywords": [
         "CSS and Preprocessors",
         "Jade",
-        "JavaEE",
-        "Javascript"
+        "Angular"
       ]
     },
     {
@@ -114,8 +116,10 @@
         "Android",
         "Java",
         "Python",
+        "Javascript",
         "Scala",
-        "Javascript"
+        "Kotlin",
+        "Bash"
       ]
     },
     {
@@ -124,11 +128,10 @@
       "keywords": [
         "Amazon web services",
         "Cassandra",
-        "Debian and Arch linux",
         "Docker",
         "Git",
         "MongoDB",
-        "NOSQL",
+        "React Native",
         "Nginx",
         "Nodejs",
         "Redis",
@@ -158,17 +161,6 @@
       "startDate": "2013-06-01",
       "endDate": "2013-09-01",
       "summary": "Helping disabled persons with general computer usage"
-    }
-  ],
-  "interests": [
-    {
-      "name": "3D printing"
-    },
-    {
-      "name": "Freecad"
-    },
-    {
-      "name": "Mechanical keyboards"
     }
   ]
 }

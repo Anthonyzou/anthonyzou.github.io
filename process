@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+npm run yaml;
+echo $1
+resume export index.html -t $1
+sed -i "/<style>/ r custom.css" index.html
+sed -i 's/publications/projects/g' index.html
+sed -i 's/Publications/Projects/g' index.html
