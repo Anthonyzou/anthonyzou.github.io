@@ -36,6 +36,13 @@
         - "Created resusable interactive learning objects in AngularJS"
         - "Leveraged AWS for video transcoding with S3 integration"
         - "Migrated website hosting moved into S3 and AWS Cloudfront"
+  publications:
+    -
+      name: "Ln Launcher"
+      publisher: "Anthony Ou"
+      releaseDate: "2015-05-24"
+      website: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"
+      summary: "An Android launcher developed in Scala."
     -
       company: "Cassandra cluster performance testing"
       position: "Project leader"
@@ -55,13 +62,6 @@
       highlights:
         - "Completed requirements, on time, as outlined by the client"
         - "Live demos with school children to gain UX feedback"
-  publications:
-    -
-      name: "Ln Launcher"
-      publisher: "Anthony Ou"
-      releaseDate: "2015-05-24"
-      website: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"
-      summary: "An Android launcher developed in Scala."
   education:
     -
       institution: "University of Alberta"
