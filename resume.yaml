@@ -25,11 +25,17 @@
         url: "https://ca.linkedin.com/in/anthony-ou-65b61271"
   work:
     -
+      company: "Collaborative Media Group"
+      position: "Software Developer"
+      website: ""
+      startDate: "2016-01-21"
+      summary: ""
+    -
       company: "Onlea"
       position: "Web Developer Intern"
       website: "http://onlea.org"
       startDate: "2015-01-05"
-      endDate: "2016-04-25"
+      endDate: "2016-01-20"
       summary: ""
       highlights:
         - "Implemented a redesign of the company website"
@@ -43,31 +49,12 @@
       releaseDate: "2015-05-24"
       website: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"
       summary: "An Android launcher developed in Scala."
-    -
-      company: "Cassandra cluster performance testing"
-      position: "Project leader"
-      website: "https://github.com/Anthonyzou/CMPUT391"
-      startDate: "2014-02-25"
-      endDate: "2014-04-25"
-      summary: "Design a NOSQL Cassandra cluster and to measure performance, in a 3 person group setting"
-      highlights:
-        - "400GB inserted per node over 8 nodes in 20 hours"
-        - "Configured a Cassandra cluster, optimized for bulk insertions"
-    -
-      company: "JavaEE webapp, Prereading"
-      position: "Project leader"
-      startDate: "2014-02-25"
-      endDate: "2014-04-25"
-      summary: "Managed a 7 member team through webapp design, development, and documentation of an app designed to mass test for reading disablities in children"
-      highlights:
-        - "Completed requirements, on time, as outlined by the client"
-        - "Live demos with school children to gain UX feedback"
   education:
     -
       institution: "University of Alberta"
       startDate: "2009-08-01"
       endDate: "2015-04-10"
-      area: "BSc General Computing Science-Maj - Science Internship Program, Mathematical Sciences-Min"
+      area: "BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min"
       studyType: "Bachelor of Science"
       courses:
         - "CMPUT 114/115 - Java I/II"
