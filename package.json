@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "export": "./process elegant-wso",
-    "yaml" : "js-yaml resume.yaml > resume.json",
-    "test" : "resume test"
+    "yaml": "./node_modules/.bin/js-yaml resume.yaml > resume.json",
+    "test": "resume test",
+    "minify": "./node_modules/.bin/htmlminify index.html -o index.html"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Anthonyzou/anthonyzou.github.io/issues"
   },
-  "homepage": "https://github.com/Anthonyzou/anthonyzou.github.io"
+  "homepage": "https://github.com/Anthonyzou/anthonyzou.github.io",
+  "devDependencies": {
+    "html-minify": "^0.3.1",
+    "js-yaml": "^3.6.1"
+  }
 }

@@ -2,6 +2,14 @@
 npm run yaml;
 echo $1
 resume export index.html -t $1
+
+# Insert custom styling
 sed -i "/<style>/ r custom.css" index.html
+
+# favicon no longer supported by plugin
+sed -i '/<head>/a <link rel="shortcut icon" href="favicon.ico?v=2">' index.html
+
+# rename plublications to projects
 sed -i 's/publications/projects/g' index.html
 sed -i 's/Publications/Projects/g' index.html
+npm run minify
