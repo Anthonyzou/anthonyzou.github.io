@@ -29,6 +29,10 @@
       website: ""
       startDate: "2016-01-21"
       summary: ""
+      highlights: 
+        - "Built an Android application in react native"
+        - "Maintained and built open source projects used by the application"
+        - "Fixed and maintained a express.js backend"
     -
       company: "Onlea"
       position: "Web Developer Intern"

@@ -4,7 +4,7 @@
   "description": "Resume",
   "main": "index.js",
   "scripts": {
-    "export": "./process",
+    "export": "./process elegant-wso",
     "yaml" : "js-yaml resume.yaml > resume.json",
     "test" : "resume test"
   },
