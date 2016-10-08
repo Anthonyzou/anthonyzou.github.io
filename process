@@ -12,4 +12,4 @@ sed -i '/<head>/a <link rel="shortcut icon" href="favicon.ico?v=2">' index.html
 # rename plublications to projects
 sed -i 's/publications/projects/g' index.html
 sed -i 's/Publications/Projects/g' index.html
-npm run minify
+# npm run minify
