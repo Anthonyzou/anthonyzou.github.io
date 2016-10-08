@@ -4,6 +4,7 @@
   "description": "Resume",
   "main": "index.js",
   "scripts": {
+    "start": "npm run yaml;npm run export;npm run minify; xdg-open index.html",
     "export": "./process elegant-wso",
     "yaml": "./node_modules/.bin/js-yaml resume.yaml > resume.json",
     "test": "resume test",
@@ -20,7 +21,7 @@
   },
   "homepage": "https://github.com/Anthonyzou/anthonyzou.github.io",
   "devDependencies": {
-    "html-minify": "^0.3.1",
+    "html-minify": "^0.3.2",
     "js-yaml": "^3.6.1"
   }
 }

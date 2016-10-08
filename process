@@ -6,6 +6,9 @@ resume export index.html -t $1
 # Insert custom styling
 sed -i "/<style>/ r custom.css" index.html
 
+# Insert custom scripts
+sed -i "/tooltip\.js\"><\/script>/ r custom.js" index.html
+
 # favicon no longer supported by plugin
 sed -i '/<head>/a <link rel="shortcut icon" href="favicon.ico?v=2">' index.html
 
