@@ -4,7 +4,8 @@
     label: "Programmer"
     email: "ou.anthony@gmail.com"
     phone: "7806674266"
-    summary: "Currently in 4th year computing science and playing with libraries, languages, programs, and technologies I haven't heard of."
+    summary: >
+      With 2 years of front end and mobile experience I plan to continue developing and honing my skills in this area.
     location:
       city: "Edmonton"
       countryCode: "CA"
@@ -26,17 +27,18 @@
     -
       company: "Collaborative Media Group"
       position: "Software Developer"
-      website: ""
+      website: "http://www.cmgcanada.ca/"
       startDate: "2016-01-21"
       summary: ""
-      highlights: 
+      highlights:
         - "Built an Android application in react native"
         - "Maintained and built open source projects used by the application"
-        - "Fixed and maintained a express.js backend"
+        - "Maintained company iOS application"
+        - "Fixed and maintained an express.js backend"
     -
       company: "Onlea"
       position: "Web Developer Intern"
-      website: "http://onlea.org"
+      website: "https://onlea.org"
       startDate: "2015-01-05"
       endDate: "2016-01-20"
       summary: ""
@@ -51,7 +53,7 @@
       publisher: "Anthony Ou"
       releaseDate: "2015-05-24"
       website: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"
-      summary: "An Android launcher developed in Scala."
+      summary: "An Android launcher developed in Kotlin."
   education:
     -
       institution: "University of Alberta"
@@ -60,11 +62,9 @@
       area: "BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min"
       studyType: "Bachelor of Science"
       courses:
-        - "CMPUT 114/115 - Java I/II"
         - "CMPUT 201 - Practical Programming Methodology"
         - "CMPUT 204 - Algorithms I"
         - "CMPUT 229 - Computer Organization and Architecture I"
-        - "CMPUT 272 - Formal Systems and Logic in Computing Science"
         - "CMPUT 291 - Introduction to File and Database Management"
         - "CMPUT 301 - Introduction to Software Engineering"
         - "CMPUT 325 - Non-Procedural Programming Languages"
@@ -77,26 +77,26 @@
       name: "Web Development"
       level: ""
       keywords:
-        - "CSS and Preprocessors"
-        - "Jade"
-        - "Angular"
+        - "HTML/CSS"
+        - "Angular 1"
+        - "Gulp"
+        - "react"
     -
       name: "Languages"
       level: ""
       keywords:
-        - "Android"
         - "Java"
-        - "Python"
         - "Javascript"
         - "Scala"
         - "Kotlin"
+        - "Swift"
         - "Bash"
     -
       name: "Technologies"
       level: ""
       keywords:
+        - "Android/iOS"
         - "Amazon web services"
-        - "Cassandra"
         - "Docker"
         - "Git"
         - "MongoDB"
@@ -110,13 +110,6 @@
       language: "English"
       fluency: "Proficient"
   volunteer:
-    -
-      organization: "Specialized Support and Disability Services at the University of Alberta"
-      position: "Note taker"
-      website: "http://www.ssds.ualberta.ca/"
-      startDate: "2011-11-01"
-      endDate: "2011-12-15"
-      summary: "In class note taker for a fellow CMPUT 115 student."
     -
       organization: "Cerebral Palsy Association in Alberta"
       position: "ComputAbilities Program Volunteer"
