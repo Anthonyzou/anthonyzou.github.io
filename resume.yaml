@@ -86,7 +86,7 @@
         - "HTML/CSS"
         - "Angular 1"
         - "Gulp"
-        - "react"
+        - "React"
     -
       name: "Languages"
       level: ""
@@ -103,6 +103,7 @@
       keywords:
         - "Android/iOS"
         - "Amazon web services"
+        - "Google Cloud"
         - "Docker"
         - "Git"
         - "MongoDB"
