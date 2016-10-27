@@ -5,7 +5,10 @@
     email: "ou.anthony@gmail.com"
     phone: "7806674266"
     summary: >
-      With 2 years of front end and mobile experience I plan to continue developing and honing my skills in this area.
+      With 2 years of front end and mobile experience, I plan to continue
+      developing and honing my skills in this area.
+      Passionate self-learner of new technologies and applying
+      the knowledge to open source projects and personal projects.
     location:
       city: "Edmonton"
       countryCode: "CA"
@@ -32,9 +35,10 @@
       summary: ""
       highlights:
         - "Built an Android application in react native"
-        - "Maintained and built open source projects used by the application"
-        - "Maintained company iOS application"
+        - "Designed and built open source projects used by the company"
+        - "Maintained Swift based iOS application"
         - "Fixed and maintained an express.js backend"
+        - "Developed new web features and fixes"
     -
       company: "Onlea"
       position: "Web Developer Intern"
@@ -44,7 +48,7 @@
       summary: ""
       highlights:
         - "Implemented a redesign of the company website"
-        - "Created resusable interactive learning objects in AngularJS"
+        - "Created resusable interactive web components in AngularJS 1"
         - "Leveraged AWS for video transcoding with S3 integration"
         - "Migrated website hosting moved into S3 and AWS Cloudfront"
   publications:
@@ -54,6 +58,12 @@
       releaseDate: "2015-05-24"
       website: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"
       summary: "An Android launcher developed in Kotlin."
+    -
+      name: "react-native-image-zoom"
+      publisher: "Anthony Ou"
+      releaseDate: "2016-02-15"
+      website: "https://github.com/Anthonyzou/react-native-image-zoom"
+      summary: "A open source react native pinch and zoom library for iOS and Android"
   education:
     -
       institution: "University of Alberta"
@@ -62,10 +72,6 @@
       area: "BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min"
       studyType: "Bachelor of Science"
       courses:
-        - "CMPUT 201 - Practical Programming Methodology"
-        - "CMPUT 204 - Algorithms I"
-        - "CMPUT 229 - Computer Organization and Architecture I"
-        - "CMPUT 291 - Introduction to File and Database Management"
         - "CMPUT 301 - Introduction to Software Engineering"
         - "CMPUT 325 - Non-Procedural Programming Languages"
         - "CMPUT 350 - Advanced Games Programming"
