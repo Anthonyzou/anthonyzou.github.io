@@ -7,7 +7,7 @@
     "start": "npm run yaml;npm run export;npm run minify; xdg-open index.html",
     "export": "./process elegant-wso",
     "yaml": "./node_modules/.bin/js-yaml resume.yaml > resume.json",
-    "test": "resume test",
+    "test": "npm run yaml;npm run export; xdg-open index.html",
     "minify": "./node_modules/.bin/htmlminify index.html -o index.html"
   },
   "repository": {
