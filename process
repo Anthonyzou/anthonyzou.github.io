@@ -2,8 +2,8 @@
 
 echo $1
 
-./node_modules/.bin/resume export index.html -t $1
-./node_modules/.bin/html *.html
+./node_modules/.bin/resume export resume.html -t $1
+./node_modules/.bin/html resume.html > index.html
 
 # Insert custom styling
 sed -i "/<style>/ r custom.css" index.html

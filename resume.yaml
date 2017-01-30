@@ -64,6 +64,7 @@
     -
       institution: "University of Alberta"
       startDate: "2009-08-01"
+      endDate: "2017-04-01"
       area: "BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min"
       studyType: "Bachelor of Science"
       courses:
@@ -111,11 +112,3 @@
     -
       language: "English"
       fluency: "Proficient"
-  volunteer:
-    -
-      organization: "Cerebral Palsy Association in Alberta"
-      position: "ComputAbilities Program Volunteer"
-      website: "http://www.cpalberta.com/"
-      startDate: "2013-06-01"
-      endDate: "2013-09-01"
-      summary: "Helping disabled persons with general computer usage"

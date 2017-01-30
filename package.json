@@ -22,10 +22,11 @@
   "homepage": "https://github.com/Anthonyzou/anthonyzou.github.io",
   "devDependencies": {
     "html-minify": "^0.3.2",
-    "js-yaml": "^3.6.1"
+    "js-yaml": "^3.6.1",
+    "html": "^1.0.0",
+    "jsonresume-theme-elegant-wso": "0.0.2",
+    "resume-cli": "^0.4.18"
   },
   "dependencies": {
-    "html": "^1.0.0",
-    "resume-cli": "^0.4.18"
   }
 }
