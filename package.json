@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run yaml;npm run export;npm run minify; xdg-open index.html",
-    "export": "./process elegant-wso",
+    "export": "./process elegant",
     "yaml": "./node_modules/.bin/js-yaml resume.yaml > resume.json",
     "test": "npm run yaml;npm run export; xdg-open index.html",
     "minify": "./node_modules/.bin/htmlminify index.html -o index.html"
@@ -23,5 +23,9 @@
   "devDependencies": {
     "html-minify": "^0.3.2",
     "js-yaml": "^3.6.1"
+  },
+  "dependencies": {
+    "html": "^1.0.0",
+    "resume-cli": "^0.4.18"
   }
 }

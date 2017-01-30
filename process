@@ -1,7 +1,9 @@
 #!/usr/bin/env sh
-npm run yaml;
+
 echo $1
-resume export index.html -t $1
+
+./node_modules/.bin/resume export index.html -t $1
+./node_modules/.bin/html *.html
 
 # Insert custom styling
 sed -i "/<style>/ r custom.css" index.html
@@ -15,10 +17,9 @@ sed -i '/<div class="detail" id="work-experience">/ r highlights.html' index.htm
 sed -i '/<head>/a <link rel="shortcut icon" href="favicon.ico?v=2">' index.html
 
 # get first duplicated work-experience tag and replace
-line=$(grep -n '<div class="detail" id="work-experience">' index.html | gawk '{print $1}' FS=":" | head -1)
-sed -i "${line}s/.*//" index.html
+# line=$(grep -n '<div class="detail" id="work-experience">' index.html | gawk '{print $1}' FS=":" | head -1)
+# sed -i "${line}s/.*//" index.html
 
 # rename plublications to projects
 sed -i 's/publications/projects/g' index.html
 sed -i 's/Publications/Projects/g' index.html
-# npm run minify

@@ -33,11 +33,8 @@
       startDate: "2016-01-21"
       summary: ""
       highlights:
-        - "Built an Android application in react native for mobile access to company social media platform"
-        - "Fixed and maintained an express.js backend and backbone frontend"
-        - "Developed instant messaging and analytics features for the company social media platform"
-        - "Proposed, designed, and built open source react native projects for use in the Android mobile applications"
-        - "Maintained Swift based iOS application"
+        - "Lead mobile development in Swift and React Native"
+        - "Integrated, lead, and designed instant messaging and analytics features"
     -
       company: "Onlea"
       position: "Web Developer Intern"
