@@ -4,11 +4,10 @@
   "description": "Resume",
   "main": "index.js",
   "scripts": {
-    "start": "npm run yaml;npm run export;npm run minify; xdg-open index.html",
-    "export": "./process elegant",
-    "yaml": "./node_modules/.bin/js-yaml resume.yaml > resume.json",
-    "test": "npm run yaml;npm run export; xdg-open index.html",
-    "minify": "./node_modules/.bin/htmlminify index.html -o index.html"
+    "yaml": "js-yaml resume.yaml > resume.json",
+    "pretest": "npm run yaml",
+    "test": "resume test",
+    "minify": "htmlminify resume.html -o index.html"
   },
   "repository": {
     "type": "git",
@@ -22,11 +21,7 @@
   "homepage": "https://github.com/Anthonyzou/anthonyzou.github.io",
   "devDependencies": {
     "html-minify": "^0.3.2",
-    "js-yaml": "^3.6.1",
-    "html": "^1.0.0",
-    "jsonresume-theme-elegant-wso": "0.0.2",
-    "resume-cli": "^0.4.18"
+    "js-yaml": "^3.6.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

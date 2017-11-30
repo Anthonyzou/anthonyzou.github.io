@@ -5,9 +5,10 @@
     email: "ou.anthony@gmail.com"
     phone: "7806674266"
     summary: >
-      Motivated by challenges and capable in a team or independent environment.
-      Passionate self-learner of new technologies and applying
-      my knowledge to work, personal, and open source projects.
+      Knowledgable in what it takes to make a working, beautiful, and secure app from the
+      ground up. I have dealt every aspect of developmenting an app with industry standard
+      practices and have proven ability to make technology decisions for some of Canada's
+      biggest organizations like CMA, ATB, AHS, and the CHL.
     location:
       city: "Edmonton"
       countryCode: "CA"
@@ -28,13 +29,26 @@
   work:
     -
       company: "Collaborative Media Group"
+      position: "Interim CTO"
+      website: "http://www.cmgcanada.ca/"
+      startDate: "2017-02-01"
+      summary: ""
+      highlights:
+        - Led the rewrite of the existing platform using Graphql, Angular, Mongodb, and Typescipt. While maintaining a legacy platform.
+        - Managed a team of developers, designers, and QA testers to deliver a leading edge experience.
+        - Brought more transparency to the development process for execs.
+    -
+      company: "Collaborative Media Group"
       position: "Software Developer"
       website: "http://www.cmgcanada.ca/"
       startDate: "2016-01-21"
+      endDate: "2017-02-01"
       summary: ""
       highlights:
-        - "Lead mobile development in Swift and React Native"
-        - "Integrated, lead, and designed instant messaging and analytics features"
+        - Built a mobile application with React Native to mirror the existing iOS application.
+        - Designed and built an email analytics web system for email campaign tracking by leveraging the Postmark APi.
+        - Managed and built new features into a Swift based mobile app.
+        - Met with clients from ATB, AHS, CMA, and CHL to discuss new and upcoming features to the web and mobile platform.
     -
       company: "Onlea"
       position: "Web Developer Intern"
@@ -46,7 +60,7 @@
         - "Worked closely with designers to implement a redesign of the company website"
         - "Proposed, designed, and built a video transcoding pipline with S3 integration using Amazon Web Services"
         - "Migrated company website host into Amazon Web Services S3 and Cloudfront"
-        - "Created reusable interactive web components in AngularJS 1"
+        - "Created reusable interactive web components in AngularJS"
   publications:
     -
       name: "Ln Launcher"
@@ -80,8 +94,8 @@
       level: ""
       keywords:
         - "HTML/CSS"
-        - "Angular 1"
-        - "Gulp"
+        - "Angular"
+        - "Docker"
         - "React"
     -
       name: "Languages"
@@ -107,7 +121,7 @@
         - "Nginx"
         - "Nodejs"
         - "Redis"
-        - "SQL"
+        - "GraphQL"
   languages:
     -
       language: "English"

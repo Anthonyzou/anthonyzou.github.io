@@ -2,24 +2,10 @@
 
 echo $1
 
-./node_modules/.bin/resume export resume.html -t $1
-./node_modules/.bin/html resume.html > index.html
-
-# Insert custom styling
-sed -i "/<style>/ r custom.css" index.html
-
-# Insert custom scripts
-sed -i "/tooltip\.js\"><\/script>/ r custom.js" index.html
-
-sed -i '/<div class="detail" id="work-experience">/ r highlights.html' index.html
-
-# favicon no longer supported by plugin
-sed -i '/<head>/a <link rel="shortcut icon" href="favicon.ico?v=2">' index.html
-
-# get first duplicated work-experience tag and replace
-# line=$(grep -n '<div class="detail" id="work-experience">' index.html | gawk '{print $1}' FS=":" | head -1)
-# sed -i "${line}s/.*//" index.html
+npm run yaml;
+resume export resume.html -t $1
+npm run minify;
 
 # rename plublications to projects
-sed -i 's/publications/projects/g' index.html
-sed -i 's/Publications/Projects/g' index.html
+sed -i '' 's/publications/projects/g' index.html
+sed -i '' 's/Publications/Projects/g' index.html
