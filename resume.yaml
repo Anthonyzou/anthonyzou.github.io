@@ -57,10 +57,10 @@
       endDate: "2016-01-20"
       summary: ""
       highlights:
-        - "Worked closely with designers to implement a redesign of the company website"
-        - "Proposed, designed, and built a video transcoding pipline with S3 integration using Amazon Web Services"
-        - "Migrated company website host into Amazon Web Services S3 and Cloudfront"
-        - "Created reusable interactive web components in AngularJS"
+        - Worked closely with designers to implement a redesign of the company website
+        - Proposed, designed, and built a video transcoding pipline with S3 integration using Amazon Web Services
+        - Migrated company website host into Amazon Web Services S3 and Cloudfront
+        - Created reusable interactive web components in AngularJS
   publications:
     -
       name: "Ln Launcher"
