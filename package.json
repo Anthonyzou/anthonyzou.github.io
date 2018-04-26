@@ -7,7 +7,7 @@
     "yaml": "js-yaml resume.yaml > resume.json",
     "pretest": "npm run yaml",
     "test": "resume test",
-    "export" : "resume export resume.html -t elegant",
+    "export": "resume export resume.html -t elegant",
     "minify": "htmlminify resume.html -o index.html"
   },
   "repository": {
