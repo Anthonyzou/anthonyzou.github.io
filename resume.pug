@@ -1,0 +1,85 @@
+include resume-mixins.pug
+
+#main
+  #title
+    h1 Anthony Ou
+    .subtitle Senior Software Developer, with experience building multiplatform applications.
+
+  .main-block
+    h2 #[i.fa.fa-suitcase] Experiences
+
+    +item("Collaborative media group", "Senior Software Developer", "Sn 1")
+      :markdown-it
+        - Led the rewrite of the existing platform using Graphql, Angular, Mongodb, and Typescipt. While maintaining a legacy platform.
+        - Managed a team of developers, designers, and QA testers to deliver a leading edge experience.
+        - Brought more transparency to the development process for execs.
+    +item("Collaborative media group", "Software Developer", "Sn 1")
+      :markdown-it
+        - Built a mobile application with React Native to mirror the existing iOS application.
+        - Designed and built an email analytics web system for email campaign tracking by leveraging the Postmark APi.
+        - Managed and built new features into a Swift based mobile app.
+        - Met with clients from ATB, AHS, CMA, and CHL to discuss new and upcoming features to the web and mobile platform.
+    +item("Onlea", "Software Developer Intern")
+      :markdown-it
+        - Worked closely with designers to implement a redesign of the company website
+        - Proposed, designed, and built a video transcoding pipline with S3 integration using Amazon Web Services
+        - Migrated company website host into Amazon Web Services S3 and Cloudfront
+        - Created reusable interactive web components in AngularJS
+
+
+  .main-block
+    h2 #[i.fa.fa-folder-open] Selected Projects
+    +item("Ln Launcher")
+      :markdown-it
+        An Android launcher first made in scala then refactored in Kotlin
+    +item("react-native-image-zoom")
+      :markdown-it
+        A open source react native pinch and zoom library for iOS and Android
+
+  .main-block.concise
+    h2 #[i.fa.fa-graduation-cap] Education
+
+    +item("University of Alberta")
+      .description BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min
+
+#sidebar
+  #contact.side-block
+    h1 Contact Info
+    ul
+      li #[i.fa.fa-globe]  anthony.ou
+      li
+        a(href="https://ca.linkedin.com/in/anthony-ou") #[i.fa.fa-linkedin] Linkedin
+      li
+        a(href="mailto:ou.anthony@gmail.com") #[i.fa.fa-envelope] ou.anthony@gmail.com
+      li
+        a(href="tel:1-780-667-4266") #[i.fa.fa-phone] 780.667.4266
+
+  #skills.side-block
+    h1 Skills
+    ul Web Development
+      li HTML/CSS
+      li Angular
+      li Docker
+      li React
+      li Typescript
+    ul Languages
+      li Java
+      li Javascript
+      li Kotlin
+      li Swift
+      li Bash
+    ul Technologies
+      li Android/iOS
+      li Amazon web services
+      li Docker
+      li Git
+      li MongoDB
+      li React Native
+      li GraphQL
+
+  //- This points to mnjul's original resume project
+  #disclaimer.side-block.
+      //- This résumé was wholly typeset with HTML/CSS — see code git.io/vVSYL
+
+style
+  include resume.scss
