@@ -2,13 +2,8 @@
   "name": "anthonyzou.github.io",
   "version": "0.0.1",
   "description": "Resume",
-  "main": "index.js",
   "scripts": {
-    "yaml": "js-yaml resume.yaml > resume.json",
-    "pretest": "npm run yaml",
-    "test": "resume test",
-    "export": "resume export resume.html -t elegant",
-    "minify": "htmlminify resume.html -o index.html"
+    "start": "relaxed index.pug"
   },
   "repository": {
     "type": "git",
@@ -20,9 +15,6 @@
     "url": "https://github.com/Anthonyzou/anthonyzou.github.io/issues"
   },
   "homepage": "https://github.com/Anthonyzou/anthonyzou.github.io",
-  "devDependencies": {
-    "html-minify": "^0.3.2",
-    "js-yaml": "^3.6.1"
-  },
+  "devDependencies": {},
   "dependencies": {}
 }
