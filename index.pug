@@ -3,7 +3,7 @@ include resume-mixins.pug
 #main
   #title
     h1 Anthony Ou
-    .subtitle Senior Software Developer, with experience building multiplatform applications.
+    .subtitle Senior Software Developer with experience building multi-platform applications and many open source contributions.
 
   .main-block
     h2
@@ -12,22 +12,27 @@ include resume-mixins.pug
 
     +item("Collaborative media group", "Senior Software Developer", "Edmonton, AB")
       :markdown-it
-        - Led the rewrite of the existing platform using Graphql, Angular, Mongodb, and Typescipt. While maintaining a legacy platform.
-        - Managed a team of developers, designers, and QA testers to deliver a leading edge experience.
-        - Brought more transparency to the development process for execs.
+        - Led a team in a redesign of the main client facing software product
+        - Made technology decision for the company
+          - Leveraged services cloud services such as AWS (S3, EC2, ETC), NanoBox, Tokbox, and Twilio
+          - Developed the server back-end using Typescript, Express, GraphQL, and MongoDB
+          - Created the front end in Angular and Material2 to help reduce development time and increase front end reliability
+        - Migrated an existing proprietary CMS into Directus a headless CMS
+        - Used Cordova to create a mobile app version of the product
+          - Contributed to open source Cordova plugin projects in objective c
+        - Deployed web security techniques and software into legacy software
     +item("Collaborative media group", "Software Developer", "Edmonton, AB")
       :markdown-it
-        - Built a mobile application with React Native to mirror the existing iOS application.
-        - Designed and built an email analytics web system for email campaign tracking by leveraging the Postmark APi.
-        - Managed and built new features into a Swift based mobile app.
-        - Met with clients from ATB, AHS, CMA, and CHL to discuss new and upcoming features to the web and mobile platform.
+        - Created a React Native app for the main client facing software product
+          - Maintained and built open source plugins for React Native for both Android and iOS
+        - Built new video capturing features into an iOS Swift based app
+        - Met with clients from ATB, AHS, CMA, and CHL to discuss new and upcoming features to the web and mobile platform
     +item("Onlea", "Software Developer Intern", "Edmonton, AB")
       :markdown-it
         - Worked closely with designers to implement a redesign of the company website
-        - Proposed, designed, and built a video transcoding pipline with S3 integration using Amazon Web Services
-        - Migrated company website host into Amazon Web Services S3 and Cloudfront
+        - Proposed, designed, and built a video transcoding pipeline with S3 integration using Amazon Web Services
+        - Migrated company website host into AWS S3 and CloudFront
         - Created reusable interactive web components in AngularJS
-
 
   .main-block
     h2
@@ -69,7 +74,9 @@ include resume-mixins.pug
     h1 Skills
     ul Web Development
       li HTML/CSS
-      //- li #[a(href="https://angular.io/")] Angular
+      li
+        a(href="https://angular.io/")
+        | Angular
       li Docker
       li React
       li Typescript
@@ -79,13 +86,16 @@ include resume-mixins.pug
       li Kotlin
       li Swift
       li Bash
-    ul Technologies
+    ul Services
       li Amazon web services
+      li Nanobox
+    ul Technologies
       li Docker
       li Git
       li MongoDB
       li React Native
       li GraphQL
+      li Redis
       li Directus
 
   //- This points to mnjul's original resume project
