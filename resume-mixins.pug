@@ -8,7 +8,11 @@ mixin item(title, place, location, from_date, to_date)
     .decorator
     .details
       header
-        h3= title
+        if title.title
+          h3
+            a(target="_blank" href=title.url)= title.title
+        else
+          h3= title
         if place
           span.place= place
         if location
