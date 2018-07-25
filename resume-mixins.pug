@@ -16,6 +16,8 @@ mixin item(title, place, location, from_date, to_date)
         if place
           span.place= place
         if location
-          span.location= location
+          span.location
+            i.fas.fa-map-marker-alt
+            = location
       .description
         block
