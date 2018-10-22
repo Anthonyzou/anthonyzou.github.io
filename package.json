@@ -16,7 +16,7 @@
   },
   "homepage": "resume.anthonyou.com",
   "devDependencies": {
-    "relaxedjs": "0.1.11"
+    "relaxedjs": "0.2.0"
   },
   "dependencies": {}
 }
