@@ -9,12 +9,12 @@
     "type": "git",
     "url": "https://github.com/Anthonyzou/anthonyzou.github.io.git"
   },
-  "author": "",
+  "author": "Anthony Ou",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Anthonyzou/anthonyzou.github.io/issues"
   },
-  "homepage": "resume.anthonyou.com",
+  "homepage": "https://resume.anthonyou.com",
   "devDependencies": {
     "relaxedjs": "0.2.0"
   },
