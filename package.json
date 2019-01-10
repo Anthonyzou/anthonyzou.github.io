@@ -18,5 +18,8 @@
   "devDependencies": {
     "relaxedjs": "0.2.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "resolutions": {
+    "relaxedjs/node-sass": "^4.11.0"
+  }
 }
