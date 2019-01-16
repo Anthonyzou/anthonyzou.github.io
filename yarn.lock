@@ -3405,10 +3405,9 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-relaxedjs@0.2.0:
+relaxedjs@RelaxedJS/ReLaXed:
   version "0.2.0"
-  resolved "https://registry.yarnpkg.com/relaxedjs/-/relaxedjs-0.2.0.tgz#fd98db087f6d689efaf895a2d075e96e0eaeebcc"
-  integrity sha512-juDrtJqVGk/34nhi7XFPpJr3uIP3AjZrkDDtlpgmTPI6uBslb3vteq73ELeML1C3xck0fr7dHFDsDJlz3i797w==
+  resolved "https://codeload.github.com/RelaxedJS/ReLaXed/tar.gz/e89a06c83139ddaba6ea8fc5ba1ae090b32fcc6e"
   dependencies:
     cheerio "^1.0.0-rc.2"
     chokidar "^2.0.3"
