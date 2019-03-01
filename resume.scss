@@ -30,3 +30,9 @@ a {
 .linkedin{
   font-size: 9px;
 }
+.date span{
+  white-space: nowrap;
+}
+.date span:nth-child(2)::before{
+  right: 12.5pt;
+}
