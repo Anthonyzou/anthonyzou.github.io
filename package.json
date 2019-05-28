@@ -20,6 +20,6 @@
   },
   "dependencies": {},
   "resolutions": {
-    "relaxedjs/node-sass": "^4.11.0"
+    "relaxedjs/node-sass": "^4.12.0"
   }
 }
