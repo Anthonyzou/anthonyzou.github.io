@@ -1,4 +1,4 @@
-# Resume for resume.anthonyzou.ca
+# Resume for [resume.anthonyou.com](https://resume.anthonyou.com)
 
 ====================
 
