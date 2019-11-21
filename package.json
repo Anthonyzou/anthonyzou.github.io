@@ -16,10 +16,10 @@
   },
   "homepage": "https://resume.anthonyou.com",
   "devDependencies": {
-    "relaxedjs": "RelaxedJS/ReLaXed"
+    "relaxedjs": "0.2.3"
   },
   "dependencies": {},
   "resolutions": {
-    "relaxedjs/node-sass": "^4.12.0"
+    "relaxedjs/node-sass": "^4.13.0"
   }
 }
