@@ -1,5 +1,5 @@
 @import 'https://cdn.rawgit.com/mnjul/html-resume/master/style.css';
-@import 'https://use.fontawesome.com/releases/v5.2.0/css/all.css';
+@import 'https://use.fontawesome.com/releases/v5.11.2/css/all.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro|Source+Sans+Pro';
 .blocks {
@@ -27,12 +27,12 @@ a {
 .details {
   font-size: 11px;
 }
-.linkedin{
+.linkedin {
   font-size: 9px;
 }
-.date span{
+.date span {
   white-space: nowrap;
 }
-.date span:nth-child(2)::before{
+.date span:nth-child(2)::before {
   right: 12.5pt;
 }

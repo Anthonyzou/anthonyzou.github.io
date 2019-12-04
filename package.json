@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Resume",
   "scripts": {
-    "start": "relaxed resume.pug"
+    "start": "relaxed resume.pug",
+    "build": "relaxed resume.pug --bo"
   },
   "repository": {
     "type": "git",
