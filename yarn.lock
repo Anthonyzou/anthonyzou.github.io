@@ -812,10 +812,15 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@*, commander@2, commander@^2.15.1, commander@^2.16.0:
+commander@*, commander@2, commander@^2.15.1:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
+
+commander@^2.19.0:
+  version "2.20.3"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 component-emitter@^1.2.1:
   version "1.2.1"
@@ -2369,12 +2374,19 @@ jstransformer@1.0.0:
     is-promise "^2.0.0"
     promise "^7.0.1"
 
-katex@^0.10.0-beta:
-  version "0.10.0-rc.1"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.10.0-rc.1.tgz#bd46155281f61c4855a064e2b7a89d137ee04b41"
-  integrity sha512-JmnreLp0lWPA1z1krzO5drN1qBrkhqzMg5qv0l5y+Fr97sqgOuh37k9ky7VD1k/Ec+yvOe2BptiYSR9OoShkFg==
+katex@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.11.1.tgz#df30ca40c565c9df01a466a00d53e079e84ffaa2"
+  integrity sha512-5oANDICCTX0NqYIyAiFCCwjQ7ERu3DQG2JFHLbYOf+fXaMoH8eg/zOq5WSYJsKMi/QebW+Eh3gSM+oss1H/bww==
   dependencies:
-    commander "^2.16.0"
+    commander "^2.19.0"
+
+katex@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.6.0.tgz#12418e09121c05c92041b6b3b9fb6bab213cb6f3"
+  integrity sha1-EkGOCRIcBckgQbazuftrqyE8tvM=
+  dependencies:
+    match-at "^0.1.0"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
@@ -2528,6 +2540,13 @@ markdown-it-footnote@^3.0.2:
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.2.tgz#1575ee7a093648d4e096aa33386b058d92ac8bc1"
   integrity sha512-JVW6fCmZWjvMdDQSbOT3nnOQtd9iAXmw7hTSh26+v42BnvXeVyGMDBm5b/EZocMed2MbCAHiTX632vY0FyGB8A==
 
+markdown-it-katex@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-katex/-/markdown-it-katex-2.0.3.tgz#d7b86a1aea0b9d6496fab4e7919a18fdef589c39"
+  integrity sha1-17hqGuoLnWSW+rTnkZoY/e9YnDk=
+  dependencies:
+    katex "^0.6.0"
+
 markdown-it@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-10.0.0.tgz#abfc64f141b1722d663402044e43927f1f50a8dc"
@@ -2549,6 +2568,11 @@ markdown-it@^8.0.0:
     linkify-it "^2.0.0"
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
+
+match-at@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/match-at/-/match-at-0.1.1.tgz#25d040d291777704d5e6556bbb79230ec2de0540"
+  integrity sha512-h4Yd392z9mST+dzc+yjuybOGFNOZjmXIPKWjxBd1Bb23r4SmDOsk2NYCU2BMUBGbSpZqwVsZYNq26QS3xfaT3Q==
 
 mathjax-node-page@^3.0.1:
   version "3.0.1"
@@ -3426,10 +3450,10 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-relaxedjs@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/relaxedjs/-/relaxedjs-0.2.3.tgz#34b5295d5075b0fa9577cefeb0e0b4f7403f0f9d"
-  integrity sha512-Rq+BlDyypxCXGGBZrNNH4pjjfWqRzBBHp+5++Vi6n6uBDtpcRuewTAFg8+hoU+qCzBH5tQaow4+wXQTf4B3iHg==
+relaxedjs@0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/relaxedjs/-/relaxedjs-0.2.4.tgz#595d357582d706287e14583736e9f70a32b59ccb"
+  integrity sha512-F1d+JneFSpNHX3e3f/LasWaG3ygsNIZ6xd6bfY3UOEfwyIXSbWvcytCs/WP6FD3ByiRe9+wAUPfJNC4lV47qbQ==
   dependencies:
     cheerio "^1.0.0-rc.2"
     chokidar "^2.0.3"
@@ -3443,9 +3467,10 @@ relaxedjs@0.2.3:
     js-yaml "^3.12.0"
     jstransformer-highlight "^2.0.0"
     jstransformer-markdown-it "^2.1.0"
-    katex "^0.10.0-beta"
+    katex "^0.11.1"
     markdown-it "^10.0.0"
     markdown-it-footnote "^3.0.2"
+    markdown-it-katex "^2.0.3"
     mathjax-node-page "^3.0.1"
     mermaid "^8.0.0-rc.8"
     node-sass "^4.9.0"
