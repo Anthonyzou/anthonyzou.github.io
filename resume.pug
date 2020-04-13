@@ -16,37 +16,30 @@ include resume-mixins.pug
       i.fas.fa-suitcase
       | Work history
 
-    +item({title: "Niphtio"}, "Full-stack Software Developer", "Edmonton, AB", '2019 April', 'current')
+    +item({title: "Niphtio", url: "http://nipht.io/"}, "Full-stack Software Developer", "Edmonton, AB", '2019 April', 'current')
       :markdown-it
-        - Setup continuous integration for all company projects with Gitlab
-        - Developed a graphql API with [Ktor](https://ktor.io/) and [Graphql Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)
-        - Worked in [Next.js](https://nextjs.org/) and react for front end development
+        - Setup continuous integration with Gitlab
+        - Developed an API with [Ktor](https://ktor.io/) and [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)
+        - Used [Next.js](https://nextjs.org/) and React for front end development
     +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Full-stack Software Developer", "Edmonton, AB", '2017 Feb', '2019 April')
       :markdown-it
         - Front end work
           - Created a single page application in Angular and Material2
-          - Implemented instant messaging, calendar, and video conferencing features
           - Deployed mobile versions of the application through Cordova
         - Back end work
           - Managed Kubernetes infrastructure with [kops](https://github.com/kubernetes/kops) in AWS
           - Developed the server back-end using Typescript, Express, GraphQL, Redis, and MongoDB
-        - Designed and discussed technical details and implementations with the team
-        - Evaluate potential software, services, and technology for development
-        - Biweekly sprints
-        - Performed code reviews per pull request
-        - Setup continuous integration with BitBucket pipelines and BrowserStack
+        - Setup continuous integration with BitBucket pipelines
         - Migrated multiple proprietary CMS into Directus, a headless CMS
     +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Software Developer", "Edmonton, AB", '2016 Feb', '2017 Feb')
       :markdown-it
         - Created a React Native app for the main client facing software product
           - Maintained and built open source plugins for React Native for both Android and iOS
         - Built new video capturing features into an iOS Swift based app
-        - Met with clients from ATB, AHS, CMA, and CHL to discuss new and upcoming features to the web and mobile platform
     +item({title: "Onlea", url: "https://onlea.org"}, "Software Developer Intern", "Edmonton, AB", '2015 Jan', '2016 Feb')
       :markdown-it
         - Worked closely with designers to implement a redesign of the company website
         - Created reusable interactive web components in AngularJS and CoffeeScript
-        - Proposed, designed, and built a video transcoding pipeline with S3 integration using Amazon Web Services
         - Migrated hosting into AWS S3 and CloudFront
 
   .main-block
@@ -90,7 +83,7 @@ include resume-mixins.pug
 
   #skills.side-block
     h1 Skills
-    h3 Development
+    h3 Web
     ul
       li HTML/CSS
       li
@@ -108,13 +101,12 @@ include resume-mixins.pug
     ul
       li AWS
       li Twilio
-      li TokBox
     h3 Technologies
     ul
       li Docker
       li
         a(href="https://kubernetes.io/" target="_blank") Kubernetes
-      li Git
+      li Postgres
       li MongoDB
       li GraphQL
       li
