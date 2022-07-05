@@ -28,12 +28,26 @@ a {
   font-size: 11px;
 }
 
+.date {
+  max-width: 59px;
+  padding-right: 14px;
+}
 .date span {
   white-space: nowrap;
+  text-align: center;
 }
-.date span:nth-child(2)::before {
-  right: 12.5pt;
+
+.seperator {
+  background: black;
+  display: block;
+  min-height: 10px;
+  max-width: 1px;
+  content: '|';
+  margin: auto;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
+
 body {
   margin: auto;
 }

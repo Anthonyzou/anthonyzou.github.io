@@ -2,9 +2,11 @@ mixin item(title, place, location, from_date, to_date)
   .blocks
     .date
       if to_date
-        span= to_date
+        span.to_date= to_date
+      if to_date && from_date
+        .seperator
       if from_date
-        span= from_date
+        span.from_date= from_date
     .decorator
     .details
       header

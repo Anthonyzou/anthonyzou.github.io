@@ -12,13 +12,13 @@ include resume-mixins.pug
       i.fas.fa-suitcase
       | Work history
 
-    +item({title: "Niphtio", url: "http://nipht.io/"}, "Full-stack Software Developer", "Edmonton, AB", '2019 April', 'current')
+    +item({title: "Niphtio", url: "http://nipht.io/"}, "Full-stack Software Developer", "Edmonton, AB", '19 Apr', 'curr')
       :markdown-it
         - Backend development with [Ktor](https://ktor.io/) and [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)
         - Setup CI/CD in Gitlab
         - Frontend development with [Next.js](https://nextjs.org/)
         - Browser extension development with Typescript
-    +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Full-stack Software Developer", "Edmonton, AB", '2017 Feb', '2019 April')
+    +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Full-stack Software Developer", "Edmonton, AB", '2017 Feb', '19 Apr')
       :markdown-it
         - Lead a ground up redesign of the main software product using Angular
         - Managed Kubernetes infrastructure with [kops](https://github.com/kubernetes/kops) in AWS
@@ -27,31 +27,31 @@ include resume-mixins.pug
         - Deployed mobile versions of the application through Cordova
         - Setup continuous integration with BitBucket pipelines
         - Migrated internal and client CMS to [Directus](https://directus.io)
-    +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Mobile Developer", "Edmonton, AB", '2016 Feb', '2017 Feb')
+    +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Mobile Developer", "Edmonton, AB", '16 Feb', '17 Feb')
       :markdown-it
         - Created a React Native app for the main client facing software product
         - Maintained and built open source plugins for React Native for both Android and iOS
         - Built new video capturing features into an iOS Swift based app
-    +item({title: "Onlea", url: "https://onlea.org"}, "Software Developer Intern", "Edmonton, AB", '2015 Jan', '2016 Feb')
+    +item({title: "Onlea", url: "https://onlea.org"}, "Software Developer Intern", "Edmonton, AB", '2015 Jan', '16 Feb')
       :markdown-it
         - Worked closely with designers to implement a redesign of the company website
         - Created reusable interactive web components in AngularJS and CoffeeScript
         - Migrated web hosting to AWS S3 and CloudFront
 
-  .main-block
-    h2
-      i.fas.fa-folder-open
-      | Projects
-    +item({title: "Ln Launcher", url: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"})
-      :markdown-it
-        An Android launcher was first made in Scala then refactored in Kotlin
+  //- .main-block
+  //-   h2
+  //-     i.fas.fa-folder-open
+  //-     | Projects
+  //-   +item({title: "Ln Launcher", url: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"})
+  //-     :markdown-it
+  //-       An Android launcher was first made in Scala then refactored in Kotlin
 
   .main-block.concise
     h2
       i.fas.fa-graduation-cap
       | Education
 
-    +item("University of Alberta", "Bachelor of Science", 'Edmonton, AB', null)
+    +item("University of Alberta", "Bachelor of Science", 'Edmonton, AB', 2017)
       .description BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min
 
 #sidebar
