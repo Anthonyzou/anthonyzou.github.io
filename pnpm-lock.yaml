@@ -6,19 +6,19 @@ settings:
 
 dependencies:
   jspdf:
-    specifier: ^2.5.2
+    specifier: 2.5.2
     version: 2.5.2
   jstransformer:
-    specifier: ^1.0.0
+    specifier: 1.0.0
     version: 1.0.0
   jstransformer-scss:
-    specifier: ^2.0.0
+    specifier: 2.0.0
     version: 2.0.0
   pug:
-    specifier: ^3.0.3
+    specifier: 3.0.3
     version: 3.0.3
   puppeteer:
-    specifier: ^23.7.1
+    specifier: 23.7.1
     version: 23.7.1
 
 packages:
