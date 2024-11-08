@@ -13,8 +13,10 @@ const jstscss = jstransformer(transformerScss);
 
 const htmFile = "anthonyou_temp.htm";
 
-const locals = { jstscss };
-const html = pug.compileFile("anthonyou.pug", locals)();
+const html = pug.compileFile("anthonyou.pug", {
+  jstscss,
+  pretty: false,
+})();
 
 puppeteer.launch().then(async (browser) => {
   await fs.writeFile(htmFile, html);
