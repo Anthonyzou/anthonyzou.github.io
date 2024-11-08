@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "Resume",
   "scripts": {
-    "start": "node run.js"
+    "start": "node run.mjs"
   },
   "repository": {
     "type": "git",

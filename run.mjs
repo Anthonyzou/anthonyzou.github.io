@@ -1,7 +1,15 @@
-const pug = require("pug");
-const fs = require("fs/promises");
-const puppeteer = require("puppeteer");
-const jstscss = require("jstransformer")(require("jstransformer-scss"));
+import pug from "pug";
+import fs from "fs/promises";
+import puppeteer from "puppeteer";
+import jstransformer from "jstransformer";
+
+import transformerScss from "jstransformer-scss";
+import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+const jstscss = jstransformer(transformerScss);
 
 const htmFile = "anthonyou_temp.htm";
 
