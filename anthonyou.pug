@@ -1,118 +1,123 @@
 include resume-mixins.pug
 
-#main
-  #title
-    h1 Anthony Ou
-    .subtitle
-      | Full-stack software developer with experience building
-      br
-      | multi-platform applications and web servers.
-  .main-block
-    h2
-      i.fas.fa-suitcase
-      | Work history
+html
+  head 
+    style
+      include:scss resume.scss
+    title Anthony Ou Resume
+    link(rel="icon" type="image/x-icon" href="favicon.ico")
+  body 
+    #main
+      #title
+        h1 Anthony Ou
+        .subtitle
+          | Full-stack software developer with experience building
+          br
+          | multi-platform applications and web servers.
+      .main-block
+        h2
+          i.fas.fa-suitcase
+          | Work history
 
-    +item({title: "Niphtio", url: "http://nipht.io/"}, "Full-stack Software Developer", "Edmonton, AB", '19 Apr', 'curr')
-      :markdown-it
-        - Backend development with [Ktor](https://ktor.io/) and [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)
-        - Setup CI/CD in Gitlab
-        - Frontend development with [Next.js](https://nextjs.org/)
-        - Browser extension development with Typescript
-    +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Full-stack Software Developer", "Edmonton, AB", '2017 Feb', '19 Apr')
-      :markdown-it
-        - Lead a ground up redesign of the main software product using Angular
-        - Managed Kubernetes infrastructure with [kops](https://github.com/kubernetes/kops) in AWS
-          - Migrated from Heroku to AWS
-        - Developed a new back-end using Typescript, Express, GraphQL, Redis, and MongoDB
-        - Deployed mobile versions of the application through Cordova
-        - Setup continuous integration with BitBucket pipelines
-        - Migrated internal and client CMS to [Directus](https://directus.io)
-    +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Mobile Developer", "Edmonton, AB", '16 Feb', '17 Feb')
-      :markdown-it
-        - Created a React Native app for the main client facing software product
-        - Maintained and built open source plugins for React Native for both Android and iOS
-        - Built new video capturing features into an iOS Swift based app
-    +item({title: "Onlea", url: "https://onlea.org"}, "Software Developer Intern", "Edmonton, AB", '2015 Jan', '16 Feb')
-      :markdown-it
-        - Worked closely with designers to implement a redesign of the company website
-        - Created reusable interactive web components in AngularJS and CoffeeScript
-        - Migrated web hosting to AWS S3 and CloudFront
+        +item({title: "Niphtio", url: "http://nipht.io/"}, "Full-stack Software Developer", "Edmonton, AB", '19 Apr', 'curr')
+          :markdown-it
+            - Backend development with [Ktor](https://ktor.io/) and [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)
+            - Setup CI/CD in Gitlab
+            - Frontend development with [Next.js](https://nextjs.org/)
+            - Browser extension development with Typescript
+        +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Full-stack Software Developer", "Edmonton, AB", '2017 Feb', '19 Apr')
+          :markdown-it
+            - Lead a ground up redesign of the main software product using Angular
+            - Managed Kubernetes infrastructure with [kops](https://github.com/kubernetes/kops) in AWS
+              - Migrated from Heroku to AWS
+            - Developed a new back-end using Typescript, Express, GraphQL, Redis, and MongoDB
+            - Deployed mobile versions of the application through Cordova
+            - Setup continuous integration with BitBucket pipelines
+            - Migrated internal and client CMS to [Directus](https://directus.io)
+        +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Mobile Developer", "Edmonton, AB", '16 Feb', '17 Feb')
+          :markdown-it
+            - Created a React Native app for the main client facing software product
+            - Maintained and built open source plugins for React Native for both Android and iOS
+            - Built new video capturing features into an iOS Swift based app
+        +item({title: "Onlea", url: "https://onlea.org"}, "Software Developer Intern", "Edmonton, AB", '2015 Jan', '16 Feb')
+          :markdown-it
+            - Worked closely with designers to implement a redesign of the company website
+            - Created reusable interactive web components in AngularJS and CoffeeScript
+            - Migrated web hosting to AWS S3 and CloudFront
 
-  //- .main-block
-  //-   h2
-  //-     i.fas.fa-folder-open
-  //-     | Projects
-  //-   +item({title: "Ln Launcher", url: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"})
-  //-     :markdown-it
-  //-       An Android launcher was first made in Scala then refactored in Kotlin
+      //- .main-block
+      //-   h2
+      //-     i.fas.fa-folder-open
+      //-     | Projects
+      //-   +item({title: "Ln Launcher", url: "https://play.google.com/store/apps/details?id=com.contextswitch.emit.ln"})
+      //-     :markdown-it
+      //-       An Android launcher was first made in Scala then refactored in Kotlin
 
-  .main-block.concise
-    h2
-      i.fas.fa-graduation-cap
-      | Education
+      .main-block.concise
+        h2
+          i.fas.fa-graduation-cap
+          | Education
 
-    +item("University of Alberta", "Bachelor of Science", 'Edmonton, AB', 2017)
-      .description BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min
+        +item("University of Alberta", "Bachelor of Science", 'Edmonton, AB', 2017)
+          .description BSc General Computing Science-Maj - Science Internship Program, Biological Sciences-Min
 
-#sidebar
-  #contact.side-block
-    h1 Contact Info
-    ul
-      li
-        i.fas.fa-globe
-        a.link Anthony Ou
-      li.linkedin
-        i.fab.fa-linkedin
-        a.link(target="_blank" href="https://ca.linkedin.com/in/anthony-ou") anthony-ou
-      li
-        i.fab.fa-github
-        a.link(target="_blank" href="https://github.com/anthonyzou") anthonyzou
-      //- li
-      //-   i.fab.fa-stack-overflow
-      //-   a(target="_blank" href="https://stackoverflow.com/users/3399430/denixtry") Stack Overflow
-      li
-        i.fas.fa-envelope
-        a.link(href="mailto:ou.anthony@gmail.com") ou.anthony@gmail.com
-      li
-        i.fas.fa-phone
-        a.link(href="tel:1-780-667-4266") 8254401774
+    #sidebar
+      #contact.side-block
+        h1 Contact Info
+        ul
+          li
+            i.fas.fa-globe
+            a.link Anthony Ou
+          li.linkedin
+            i.fab.fa-linkedin
+            a.link(target="_blank" href="https://ca.linkedin.com/in/anthony-ou") anthony-ou
+          li
+            i.fab.fa-github
+            a.link(target="_blank" href="https://github.com/anthonyzou") anthonyzou
+          //- li
+          //-   i.fab.fa-stack-overflow
+          //-   a(target="_blank" href="https://stackoverflow.com/users/3399430/denixtry") Stack Overflow
+          li
+            i.fas.fa-envelope
+            a.link(href="mailto:ou.anthony@gmail.com") ou.anthony@gmail.com
+          li
+            i.fas.fa-phone
+            a.link(href="tel:1-780-667-4266") 8254401774
 
-  #skills.side-block
-    h1 Skills
-    h3 Web
-    ul
-      li HTML/CSS
-      li
-        a(href="https://nextjs.org/" target="_blank") Next.js
-      li 
-        a(href="https://reactjs.org/" target="_blank") React
-    h3 Languages
-    ul
-      li Javascript - ES6
-      li Typescript
-      li Kotlin
-      li Java
-      li 
-        a(href="https://fishshell.com/" target="_blank") Fish shell
-      
-    h3 Services
-    ul
-      li
-        a(href="https://aws.amazon.com/" target="_blank") AWS
-      li
-        a(href="https://fly.io/" target="_blank") Fly.io
-    h3 Technologies
-    ul
-      li
-        a(href="https://www.docker.com/" target="_blank") Docker
-      li Git
-      li
-        a(href="https://kubernetes.io/" target="_blank") Kubernetes
-      li 
-        a(href="https://www.prisma.io/" target="_blank") Prisma
-      li GraphQL
-      li
-        a(href="https://redis.io/" target="_blank") Redis
+      #skills.side-block
+        h1 Skills
+        h3 Web
+        ul
+          li HTML/CSS
+          li
+            a(href="https://nextjs.org/" target="_blank") Next.js
+          li 
+            a(href="https://reactjs.org/" target="_blank") React
+        h3 Languages
+        ul
+          li Javascript - ES6
+          li Typescript
+          li Kotlin
+          li Java
+          li 
+            a(href="https://fishshell.com/" target="_blank") Fish shell
+          
+        h3 Services
+        ul
+          li
+            a(href="https://aws.amazon.com/" target="_blank") AWS
+          li
+            a(href="https://fly.io/" target="_blank") Fly.io
+        h3 Technologies
+        ul
+          li
+            a(href="https://www.docker.com/" target="_blank") Docker
+          li Git
+          li
+            a(href="https://kubernetes.io/" target="_blank") Kubernetes
+          li 
+            a(href="https://www.prisma.io/" target="_blank") Prisma
+          li GraphQL
+          li
+            a(href="https://redis.io/" target="_blank") Redis
 
-style
-    include:scss resume.scss

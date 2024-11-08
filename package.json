@@ -1,10 +1,9 @@
 {
   "name": "anthonyzou.github.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Resume",
   "scripts": {
-    "start": "relaxed anthonyou.pug",
-    "build": "relaxed anthonyou.pug --bo"
+    "start": "node run.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +15,11 @@
     "url": "https://github.com/Anthonyzou/anthonyzou.github.io/issues"
   },
   "homepage": "https://resume.anthonyou.com",
-  "devDependencies": {
-    "relaxedjs": "0.2.4"
-  },
-  "dependencies": {},
-  "resolutions": {
-    "relaxedjs/node-sass": "^6.0.1"
+  "dependencies": {
+    "jspdf": "2.5.2",
+    "jstransformer": "1.0.0",
+    "jstransformer-scss": "2.0.0",
+    "pug": "3.0.3",
+    "puppeteer": "23.7.1"
   }
 }

@@ -2,6 +2,11 @@
 @import 'https://use.fontawesome.com/releases/v5.11.2/css/all.css';
 @import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro|Source+Sans+Pro';
+
+html {
+  -webkit-print-color-adjust: exact; 
+}
+
 .blocks {
   height: fit-content;
 }
