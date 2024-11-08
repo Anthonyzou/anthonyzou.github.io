@@ -1,34 +1,41 @@
-@import 'https://cdn.rawgit.com/mnjul/html-resume/master/style.css';
-@import 'https://use.fontawesome.com/releases/v5.11.2/css/all.css';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css';
-@import 'https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro|Source+Sans+Pro';
+@import "https://cdn.rawgit.com/mnjul/html-resume/master/style.css";
+@import "https://use.fontawesome.com/releases/v5.11.2/css/all.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro|Source+Sans+Pro";
 
 html {
-  -webkit-print-color-adjust: exact; 
+  -webkit-print-color-adjust: exact;
 }
 
 .blocks {
   height: fit-content;
 }
+
 .decorator::after {
   margin-left: 1px;
 }
+
 a {
   color: initial;
   text-decoration: none;
 }
+
 .subtitle {
   text-transform: initial;
 }
+
 .details .location::before {
   display: none;
 }
+
 .fa-map-marker-alt {
   margin-right: 3px;
 }
+
 .link {
   margin-left: 4px;
 }
+
 .details {
   font-size: 11px;
 }
@@ -37,6 +44,7 @@ a {
   max-width: 59px;
   padding-right: 14px;
 }
+
 .date span {
   white-space: nowrap;
   text-align: center;
@@ -47,7 +55,7 @@ a {
   display: block;
   min-height: 10px;
   max-width: 1px;
-  content: '|';
+  content: "|";
   margin: auto;
   margin-bottom: 4px;
   margin-top: 4px;
