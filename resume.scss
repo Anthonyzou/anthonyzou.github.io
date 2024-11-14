@@ -11,6 +11,12 @@ html {
   height: fit-content;
 }
 
+#main .description ul {
+  ul {
+    margin: 0.025in 0;
+  }
+}
+
 .decorator::after {
   margin-left: 1px;
 }

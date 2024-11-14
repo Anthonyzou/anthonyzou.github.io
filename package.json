@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "Resume",
   "scripts": {
-    "start": "node run.mjs"
+    "start": "node --trace-deprecation run.mjs"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,8 @@
   "homepage": "https://resume.anthonyou.com",
   "dependencies": {
     "jspdf": "2.5.2",
-    "jstransformer": "1.0.0",
-    "jstransformer-scss": "2.0.0",
     "pug": "3.0.3",
-    "puppeteer": "23.7.1"
+    "puppeteer": "23.7.1",
+    "sass": "^1.80.7"
   }
 }

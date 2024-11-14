@@ -2,8 +2,7 @@ include resume-mixins.pug
 
 html
   head 
-    style
-      include:scss resume.scss
+    style!= styling
     title Anthony Ou Resume
     link(rel="icon" type="image/x-icon" href="favicon.ico")
   body 
@@ -20,30 +19,31 @@ html
           | Work history
 
         +item({title: "Niphtio", url: "http://nipht.io/"}, "Full-stack Software Developer", "Edmonton, AB", '19 Apr', 'curr')
-          :markdown-it
-            - Backend development with [Ktor](https://ktor.io/) and [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)
-            - Setup CI/CD in Gitlab
-            - Frontend development with [Next.js](https://nextjs.org/)
-            - Browser extension development with Typescript
+          ul
+            li Backend development with [Ktor](https://ktor.io/) and [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)
+            li Setup CI/CD in Gitlab
+            li Frontend development with [Next.js](https://nextjs.org/)
+            li Browser extension development with Typescript
         +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Full-stack Software Developer", "Edmonton, AB", '2017 Feb', '19 Apr')
-          :markdown-it
-            - Lead a ground up redesign of the main software product using Angular
-            - Managed Kubernetes infrastructure with [kops](https://github.com/kubernetes/kops) in AWS
-              - Migrated from Heroku to AWS
-            - Developed a new back-end using Typescript, Express, GraphQL, Redis, and MongoDB
-            - Deployed mobile versions of the application through Cordova
-            - Setup continuous integration with BitBucket pipelines
-            - Migrated internal and client CMS to [Directus](https://directus.io)
+          ul
+            li Lead a ground up redesign of the main software product using Angular
+            li Managed Kubernetes infrastructure with [kops](https://github.com/kubernetes/kops) in AWS
+              ul 
+                li Migrated from Heroku to fly.io
+            li Developed a new back-end using Typescript, Express, GraphQL, Redis, and MongoDB
+            li Deployed mobile versions of the application through Cordova
+            li Setup continuous integration with BitBucket pipelines
+            li Migrated internal and client CMS to [Directus](https://directus.io)
         +item({title: "Collaborative Media Group", url: "https://www.cmgcanada.ca/"}, "Mobile Developer", "Edmonton, AB", '16 Feb', '17 Feb')
-          :markdown-it
-            - Created a React Native app for the main client facing software product
-            - Maintained and built open source plugins for React Native for both Android and iOS
-            - Built new video capturing features into an iOS Swift based app
+          ul
+            li Created a React Native app for the main client facing software product
+            li Maintained and built open source plugins for React Native for both Android and iOS
+            li Built new video capturing features into an iOS Swift based app
         +item({title: "Onlea", url: "https://onlea.org"}, "Software Developer Intern", "Edmonton, AB", '2015 Jan', '16 Feb')
-          :markdown-it
-            - Worked closely with designers to implement a redesign of the company website
-            - Created reusable interactive web components in AngularJS and CoffeeScript
-            - Migrated web hosting to AWS S3 and CloudFront
+          ul
+            li Worked closely with designers to implement a redesign of the company website
+            li Created reusable interactive web components in AngularJS and CoffeeScript
+            li Migrated web hosting to AWS S3 and CloudFront
 
       //- .main-block
       //-   h2

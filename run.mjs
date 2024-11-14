@@ -1,22 +1,19 @@
 import pug from "pug";
 import fs from "fs/promises";
 import puppeteer from "puppeteer";
-import jstransformer from "jstransformer";
+import * as sass from "sass";
 
-import transformerScss from "jstransformer-scss";
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
-const jstscss = jstransformer(transformerScss);
-
+const styling = sass.compile("./resume.scss");
 const htmFile = "anthonyou_temp.htm";
 
-const html = pug.compileFile("anthonyou.pug", {
-  jstscss,
+const html = pug.renderFile("anthonyou.pug", {
   pretty: false,
-})();
+  styling: styling.css,
+});
 
 puppeteer.launch().then(async (browser) => {
   await fs.writeFile(htmFile, html);
