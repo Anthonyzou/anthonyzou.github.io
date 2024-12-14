@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "Resume",
   "scripts": {
-    "start": "node --trace-deprecation run.mjs"
+    "start": "node --trace-deprecation run.mjs -w"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "pug": "3.0.3",
     "puppeteer": "23.10.4",
     "sass": "1.83.0"
+  },
+  "devDependencies": {
+    "commander": "^12.1.0"
   }
 }
