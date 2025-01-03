@@ -18,7 +18,7 @@ const fn = async () => {
   const browser = await puppeteer.launch();
   const __dirname = dirname(fileURLToPath(import.meta.url));
   const styling = sass.compile("./resume.scss");
-  const htmFile = "anthonyou_temp.htm";
+  const htmFile = "index.html";
 
   const html = pug.renderFile("anthonyou.pug", {
     pretty: false,
