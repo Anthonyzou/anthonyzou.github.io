@@ -10,4 +10,4 @@
 
 `npm run build`
 
-###### built with relaxedjs
+###### built with Pug

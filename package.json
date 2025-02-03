@@ -3,7 +3,8 @@
   "version": "0.0.2",
   "description": "Resume",
   "scripts": {
-    "start": "node --trace-deprecation run.mjs -w"
+    "start": "node --trace-deprecation run.mjs -w",
+    "build": "node --trace-deprecation run.mjs"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,10 @@
   "dependencies": {
     "lodash-es": "4.17.21",
     "pug": "3.0.3",
-    "puppeteer": "23.11.1",
-    "sass": "1.83.0"
+    "puppeteer": "24.1.1",
+    "sass": "1.83.4"
   },
   "devDependencies": {
-    "commander": "^12.1.0"
+    "commander": "^13.1.0"
   }
 }
