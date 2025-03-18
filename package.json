@@ -19,8 +19,8 @@
   "dependencies": {
     "lodash-es": "4.17.21",
     "pug": "3.0.3",
-    "puppeteer": "24.2.1",
-    "sass": "1.85.0"
+    "puppeteer": "24.4.0",
+    "sass": "1.86.0"
   },
   "devDependencies": {
     "commander": "^13.1.0"
